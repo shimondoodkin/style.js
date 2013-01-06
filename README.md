@@ -25,5 +25,4 @@ $style('.example {'+
 related:
 
 $script - small async javascript loader
-
-https://github.com/ded/script.js 
+https://github.com/ded/script.js
