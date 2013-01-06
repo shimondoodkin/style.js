@@ -5,12 +5,12 @@
     <title>$style.js test</title>
     <script src="style.js" type="text/javascript"></script>
     <script type="text/javascript">
-    $style("span { background-color:#0000ff; }");
+    $style(".blue { background-color:#0000ff; }");
     $style("@import url('test1.css');");
     </script>
   </head>
   <body>
-    <span>the background should be blue</span><br>
+    <span class="blue">the background should be blue</span><br>
     <span class="red">the background should be red</span>
   </body>
 </html>
