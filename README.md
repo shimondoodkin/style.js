@@ -1,9 +1,12 @@
 style.js
 ========
 
-$style.js css loader
+$style.js a tiny css loader
+
 https://github.com/shimondoodkin/style.js
+
 (c) Shimon doodkin 2012
+
 License: MIT
 
 usage inside javascript:
