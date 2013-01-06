@@ -1,7 +1,5 @@
-style.js
-========
-
 $style.js - a tiny css loader
+========
 
 https://github.com/shimondoodkin/style.js
 
