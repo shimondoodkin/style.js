@@ -1,4 +1,4 @@
-/*!  * $style.js css loader
+/*!  * $style.js - a tiny css loader
      * https://github.com/shimondoodkin/style.js
      * (c) Shimon doodkin 2012
      * License: MIT  */
@@ -14,10 +14,18 @@ function $style(css){
   document.getElementsByTagName('head')[0].appendChild(style);
 }
 
+$style.url=function(url){
+  var style = document.createElement('link');
+  style.rel="stylesheet"
+  style.type = 'text/css';
+  style.href= url;
+  document.getElementsByTagName('head')[0].appendChild(style);
+}
+
 //usage:
 //
-//$style("@import url('/stylesheets/orders.css');");
-//$style("@import url('http://123.123.123.123:5051/stylesheets/orders.css');");
+//$style.urk('/stylesheets/orders.css');
+//$style.urk('http://123.123.123.123:5051/stylesheets/orders.css');
 //$style('.example {'+
 //       ' width : 90%;'+
 //       '  height: 90%;'+
