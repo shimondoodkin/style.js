@@ -6,6 +6,7 @@ https://github.com/shimondoodkin/style.js
 (c) Shimon doodkin 2012
 License: MIT
 
+```javascript
 function $style(css){
   var style = document.createElement('style');
   style.type = 'text/css';  
@@ -16,6 +17,7 @@ function $style(css){
   }
   document.getElementsByTagName('head')[0].appendChild(style);
 }
+```
 
 //usage inside javascript:
 ```javascript
