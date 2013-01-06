@@ -22,9 +22,13 @@ $style('.example {'+
 ```
 
 I have tested it with 
+
 ie6 ie7 ie8 ie9 - it works with them. it does not work with ie5.5.
+
 also css that contain @import directive do not work in ie8 or less.
+
 it works well in many other browsers
+
 
 related:
 
