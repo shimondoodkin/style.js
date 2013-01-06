@@ -24,4 +24,6 @@ $style('.example {'+
 
 related:
 
-https://github.com/ded/script.js $script - tiny async javascript loader
+$script - small async javascript loader
+
+https://github.com/ded/script.js 
