@@ -3,7 +3,7 @@ $style.js - a tiny css loader
 
 https://github.com/shimondoodkin/style.js
 
-(c) Shimon doodkin 2012
+(c) Shimon Doodkin 2012
 
 License: MIT
 
@@ -20,3 +20,7 @@ $style('.example {'+
        //+'.item{border:1px solid lightgray;padding:10px;}'+
        '')
 ```
+
+
+related:
+https://github.com/ded/script.js $script - tiny async javascript loader
