@@ -21,15 +21,13 @@ $style('.example {'+
        '')
 ```
 
-I have tested it with 
+I have tested it with ie6 ie7 ie8 ie9 - it works with them. it does not work with ie5.5.
 
-ie6 ie7 ie8 ie9 - it works with them. it does not work with ie5.5.
+Also CSS that contain @import directive do not work in ie8 or less.
 
-also css that contain @import directive do not work in ie8 or less.
-
-it works well in many other browsers
+It works well in many other browsers
 
 
-related:
+Related:
 
 $script.js - a small async javascript loader: https://github.com/ded/script.js
