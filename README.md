@@ -19,7 +19,8 @@ function $style(css){
 }
 ```
 
-//usage inside javascript:
+usage inside javascript:
+-----------------------
 ```javascript
 $style("@import url('/stylesheets/orders.css');");
 $style("@import url('http://123.123.123.123:5051/stylesheets/orders.css');");
