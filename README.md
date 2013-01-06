@@ -6,19 +6,6 @@ https://github.com/shimondoodkin/style.js
 (c) Shimon doodkin 2012
 License: MIT
 
-```javascript
-function $style(css){
-  var style = document.createElement('style');
-  style.type = 'text/css';  
-  if (style.styleSheet) { // IE
-      style.styleSheet.cssText = css;
-  } else {
-      style.appendChild(document.createTextNode(css));
-  }
-  document.getElementsByTagName('head')[0].appendChild(style);
-}
-```
-
 usage inside javascript:
 
 ```javascript
