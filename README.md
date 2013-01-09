@@ -1,7 +1,7 @@
 $style.js - a tiny css loader
 ========
 It enables to load stylesheets dynamicaly from javascript.
-
+I used it to build single javascript file embedable apps.
 
 https://github.com/shimondoodkin/style.js
 
