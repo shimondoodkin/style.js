@@ -1,5 +1,7 @@
 $style.js - a tiny css loader
 ========
+It enables to load stylesheets dynamicaly from javascript.
+
 
 https://github.com/shimondoodkin/style.js
 
