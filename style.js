@@ -24,8 +24,8 @@ $style.url=function(url){
 
 //usage:
 //
-//$style.urk('/stylesheets/orders.css');
-//$style.urk('http://123.123.123.123:5051/stylesheets/orders.css');
+//$style.url('/stylesheets/orders.css');
+//$style.url('http://123.123.123.123:5051/stylesheets/orders.css');
 //$style('.example {'+
 //       ' width : 90%;'+
 //       '  height: 90%;'+
